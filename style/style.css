@@ -1,0 +1,36 @@
+.letter{
+    background-color: blue;
+    max-width: 80px;
+    max-height: 80px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.game{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .letter{
+        max-width: 40px;
+        max-height: 40px;
+        margin: 2px;
+    }
+
+    .row{
+        margin-top: 20px;
+    }
+}
